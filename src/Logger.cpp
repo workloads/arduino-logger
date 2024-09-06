@@ -5,10 +5,6 @@
 
 #include "Logger.h"
 
-/*Logger Logger() {
-    // Empty constructor
-}
-*/
 // Initialize the log level mappings
 const LogLevelMap Logger::logLevels[] = {
     {"NONE",    LOG_NONE   },

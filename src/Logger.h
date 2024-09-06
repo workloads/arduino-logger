@@ -1,12 +1,5 @@
-/*
-  Log management library for Arduino projects.
-  License: TBD
-  Authors: TBD
-*/
-
-
-#ifndef LOGGER_H
-#define LOGGER_H
+#ifndef LOGGER_H_
+#define LOGGER_H_
 
 #include <Arduino.h>
 
@@ -27,7 +20,7 @@ struct LogLevelMap {
  * @brief Log class for managing and printing log messages.
  */
 class Logger {
- private:
+   private:
     // Configuration
     constexpr static size_t kLogLineBufferSize = 128;
 
@@ -60,7 +53,7 @@ class Logger {
      */
     static const char *getLogLevelName(LogLevel level);
 
- public:
+   public:
     /**
      * @brief Logs a message at `DEBUG` level.
      *
@@ -132,4 +125,4 @@ class Logger {
     }
 };
 
-#endif  // LOG_H_
+#endif  // LOGGER_H_
