@@ -1,7 +1,6 @@
 /*
-  Log management library for Arduino projects.
-  License: TBD
-  Authors: TBD
+    Logging library for Arduino and ESP32
+    License: Apache-2.0
 */
 
 #include "Logger.h"
