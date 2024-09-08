@@ -1,9 +1,11 @@
 #include <Logger.h>
 
 void setup() {
-    Logger::debug(logTag, "Logging at DEBUG level");
+  const char *logTag = __func__;
+
+  Logger::debug(logTag, "Logging at DEBUG level");
 }
 
 void loop() {
-    // intentionally left empty
+  // intentionally left empty
 }
